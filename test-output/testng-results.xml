@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-06-19T21:34:37 IST" name="Open cart application" finished-at="2025-06-19T21:34:44 IST" duration-ms="6682">
+    <groups>
+    </groups>
+    <test started-at="2025-06-19T21:34:37 IST" name="LoginPageTest" finished-at="2025-06-19T21:34:40 IST" duration-ms="2526">
+      <class name="mytest.LoginPageTest">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:mytest.LoginPageTest@4426bff1]" started-at="2025-06-19T21:34:37 IST" name="setup" finished-at="2025-06-19T21:34:39 IST" duration-ms="2393" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="loginPageLogoTest()[pri:0, instance:mytest.LoginPageTest@4426bff1]" started-at="2025-06-19T21:34:39 IST" name="loginPageLogoTest" finished-at="2025-06-19T21:34:39 IST" duration-ms="17" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginPageLogoTest -->
+        <test-method signature="loginPageTitleTest()[pri:0, instance:mytest.LoginPageTest@4426bff1]" started-at="2025-06-19T21:34:39 IST" name="loginPageTitleTest" finished-at="2025-06-19T21:34:39 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginPageTitleTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:mytest.LoginPageTest@4426bff1]" started-at="2025-06-19T21:34:39 IST" name="tearDown" finished-at="2025-06-19T21:34:40 IST" duration-ms="98" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- mytest.LoginPageTest -->
+    </test> <!-- LoginPageTest -->
+    <test started-at="2025-06-19T21:34:37 IST" name="HomePageTest" finished-at="2025-06-19T21:34:44 IST" duration-ms="6682">
+      <class name="mytest.HomePageTest">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:mytest.HomePageTest@1f3f02ee]" started-at="2025-06-19T21:34:37 IST" name="setup" finished-at="2025-06-19T21:34:42 IST" duration-ms="5427" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="loginTest()[pri:1, instance:mytest.HomePageTest@1f3f02ee]" started-at="2025-06-19T21:34:42 IST" name="loginTest" finished-at="2025-06-19T21:34:43 IST" duration-ms="639" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method signature="homePageTitleTest()[pri:2, instance:mytest.HomePageTest@1f3f02ee]" started-at="2025-06-19T21:34:43 IST" name="homePageTitleTest" finished-at="2025-06-19T21:34:43 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homePageTitleTest -->
+        <test-method signature="searchIconDisplayed()[pri:3, instance:mytest.HomePageTest@1f3f02ee]" started-at="2025-06-19T21:34:43 IST" name="searchIconDisplayed" finished-at="2025-06-19T21:34:43 IST" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchIconDisplayed -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:mytest.HomePageTest@1f3f02ee]" started-at="2025-06-19T21:34:43 IST" name="tearDown" finished-at="2025-06-19T21:34:44 IST" duration-ms="597" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- mytest.HomePageTest -->
+    </test> <!-- HomePageTest -->
+  </suite> <!-- Open cart application -->
+</testng-results>

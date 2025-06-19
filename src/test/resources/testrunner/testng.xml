@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Open cart application" verbose="3" parallel="tests" thread-count="2">
+
+    <test name="LoginPageTest">
+        <parameter name="browser" value="chrome"/>
+        <classes>
+            <class name="mytest.LoginPageTest"/>
+        </classes>
+    </test>
+
+    <test name="HomePageTest">
+        <parameter name="browser" value="firefox"/>
+        <classes>
+            <class name="mytest.HomePageTest"/>
+        </classes>
+    </test>
+
+
+</suite>
